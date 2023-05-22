@@ -10,11 +10,11 @@
 </head>
 <body>
     <div id="container_div" class="flex flex-col h-screen">
-        <div id="barra_superior" class="flex flex-row justify-between py-[20px] px-[40px]">
-            <div class="">
-                logo
+        <div id="barra_superior" class="flex flex-row justify-between py-[20px] px-[40px] border-b">
+            <div class="flex">
+                <img src="logo.png" class="w-[200px]" alt="logo">
             </div>
-            <div class="">
+            <div>
                 <ul class="p-[20px]">
                     <li><a href="aa.html">Products</a></li>
                     <li><a href="aa.html">Company</a></li>
@@ -25,13 +25,13 @@
             </div>
         </div>
         <div id="content" class="flex-grow flex flex-row py-[20px] px-[40px]">
-            <div id="content_left" class="w-[30%]">
-                <h1>Web Design</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tenetur quasi placeat deserunt, officiis omnis facere incidunt ex officia expedita exercitationem voluptates cupiditate provident eius nihil perspiciatis quam beatae ea!</p>
-                <button type="button">Learn More</button>
+            <div id="content_left" class="w-[40%] flex flex-col justify-center">
+                <h1 class="font-bold text-4xl mb-[40px]">WEB DESIGN</h1>
+                <p class="mb-[30px] text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tenetur quasi placeat deserunt, officiis omnis facere incidunt ex officia expedita exercitationem voluptates cupiditate provident eius nihil perspiciatis quam beatae ea!</p>
+                <button class="text-white bg-indigo-500 mb-[100px] p-[10px] font-bold w-40 rounded-[5px]" type="button">Learn More</button>
             </div>
-            <div id="content_right" class="flex-grow">
-                <img src="" alt="img">
+            <div id="content_right" class="flex justify-center items-center flex-grow">
+                <img src="right_img.png" class="w-[70%] h-[65%]" alt="img">
             </div>
         </div>
     </div>
